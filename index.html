@@ -14,6 +14,8 @@
             color: #333333;
             margin-left: 100px;
             margin-top: 75px;
+            margin-right: 100px;
+            margin-bottom: 20px;
             padding: 40px;
             line-height: 1.6;
         }
@@ -27,6 +29,14 @@
             font-weight: 300;
             color: #333333;
             margin-top: 0;
+        }
+        header-right {                 /* use any name you like; this one avoids confusion with <h3> */
+            font-size: 2.4rem;         /* bigger type */
+            font-weight: 300;          /* light weight (same as your other headings) */
+            color: #5e2ca5;            /* dark purple */
+            margin-top: 40px;
+            text-align: right;         /* align text inside the block */
+            width: 100%;
         }
         .highlight {
             color: #5e2ca5;
@@ -56,21 +66,16 @@
             font-size: 1.064rem;
             font-weight: 300;
             color: #333333;
-        }
+        } 
         .projects {
-            text-align: right;
-            margin-top: 20px;
             font-size: 1.064rem;
             font-weight: 300;
             color: #333333;
-        }
-        h3_right {
             text-align: right;
-            font-size: 2.4rem;
-            font-weight: 300;
-            color: #5e2ca5;
-            margin-top: 40px;
+            width: 100%;
+            margin-top: 20px;
         }
+        
     </style>
 </head>
 <body>
@@ -88,9 +93,9 @@
             <p>I'm a Stanford bioengineering graduate passionate about bioinformatics, the microbiome, and immunology.</p>
         </div>
 
-        <h3_right>Projects.</h3_right>
+        <header-right>Projects.</header-right>
 
-        <div class=".projects">
+        <div class="projects">
             <p>Projects will go here.</p>
         </div>
     </div>
