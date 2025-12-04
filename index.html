@@ -13,24 +13,21 @@
             font-family: "Helvetica Neue", Arial, sans-serif;
             background-color: #fdfdfd;
             color: #333333;
-            margin-left: 0; /* 250px; */
-            margin-top: 0; /* 75px; */
-            margin-right: 0; /* 250px; */
-            margin-bottom: 0; /* 20px; */
-            padding: 0; /* 40px; */
+            margin : 0;
+            padding: 0;
             line-height: 1.6;
         }
 
         .container {
-            width: 900px; /* Desktop width */
-            margin: 75px 250px 20px 250px;
-            padding: 40px;
+            max-width: 900px;    /* Desktop width */
+            margin: 80px auto 40px; /* 75px 250px 20px 250px; */
+            padding: 0 24px;
         }
-        @media (max-width: 900px) { /* was 640 */
+        @media (max-width: 600px) { /* was 640 */
             .container {
-                width: 100%;
-                margin: 0px 0px;
-                padding: 20px;
+                /* width: 100%; */
+                margin: 48px auto 24px;
+                padding: 0 16px;
             }
         }
         h1 {
